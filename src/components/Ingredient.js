@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Cheese = (props) => {
+const Ingredient = (props) => {
     return (
-        <div className=/*"Cheese"*/{props.Class}/>
+        <div className=/*"Ingredient"*/{props.Class}/>
     );
 };
 
-export default Cheese;
+export default Ingredient;

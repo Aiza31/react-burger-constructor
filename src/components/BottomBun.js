@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BottomBun = () => {
+const BottomBun = (props) => {
     return (
-        <div className="BreadBottom"/>
+        <div className=/*"BreadBottom"*/{props.Class}/>
     );
 };
 
